@@ -13,7 +13,7 @@ html,body{
 
 main{
     width: 811px;
-    height:  951.156px;
+    height:  533.719px;
     margin: auto;
     margin-top: 8rem ;
     display: grid;
@@ -33,7 +33,10 @@ form{
 h3{
   color: #3b342b;
   margin-top: 0;
-  border-bottom: 1px solid #4870f4;
+}
+
+h3>span{
+    border-bottom: 2px solid #4870f4;
 }
 
 h1{
@@ -49,11 +52,14 @@ input,select,button{
     color: #9c9b9d;
     border: 1px solid hsl(231, 7%, 60%);
     border-radius: 5px;
-    border-style: solid;
     padding-left: 15px;
     margin-bottom: 20px;
     font-size: 15px;
     font-weight: 400;
+}
+
+input{
+    border-bottom-width: 3px;
 }
 
 label>input{
@@ -63,10 +69,24 @@ label>input{
     margin: 3px 3px 3px 5px;
 }
 
+input[type="checkbox"]{
+    margin-right: 1rem;
+}
+
+.confirm{
+    margin-bottom: 0;
+}
+
+.checkbox{
+    margin-bottom: 10px;
+}
+
+
 button{
     background-color: #4870f4;
     color: white;
     border: none;
+    margin-bottom: 0;
 }
 
 #field{
@@ -86,10 +106,9 @@ label{
 p{
     display: flex;
     justify-content: center;
+    margin: 0;
 }
 
 a{
     text-decoration: none;
 }
-
-
